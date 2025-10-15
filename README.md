@@ -46,15 +46,21 @@ cd library_mgmt
 ```
 
 ### 2. Create Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
+```
 
 ### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run the Application
+```bash
 python main.py
+```
 
 
 Visit http://127.0.0.1:5000
