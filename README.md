@@ -43,22 +43,24 @@ Library_mgmt
 ```bash
 git clone <your-repo-url>
 cd library_mgmt
-2. Create Virtual Environment
+```
+
+### 2. Create Virtual Environment
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
 
-3. Install Dependencies
+### 3. Install Dependencies
 pip install -r requirements.txt
 
-4. Run the Application
+### 4. Run the Application
 python main.py
 
 
 Visit http://127.0.0.1:5000
  in your browser.
 
-🛠️ Admin Setup
+### 🛠️ Admin Setup
 
 To create an admin user manually:
 
